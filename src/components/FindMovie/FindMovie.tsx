@@ -4,7 +4,7 @@ import classNames from 'classnames';
 import { getMovie } from '../../api';
 import { Movie } from '../../types/Movie';
 import { MovieCard } from '../MovieCard';
-import { ResponseError } from '../../types/ReponseError';
+import { ResponseError } from '../../types/ResponseError';
 
 type Props = {
   addMovie: (newMovie: Movie) => void;
